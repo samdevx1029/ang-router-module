@@ -9,9 +9,12 @@ Navigate to `http://localhost:4400/` to view the app.
 
 ## Top navigation bar
 Note that header.component.css has the following value under '.nav-first-row' section.
+
   'position: absolute;'
   'left: 0;'
+  
 This leaves no padding around the navigation bar which completely covers the top part of your browser. For a responsive app, this is more desirable than leaving a uniform gap around the navigation bar. If you want to create the gap around the border anyways, replace the above 2 lines with the following.
+
   'position: relative;'
 
 ## Development server
