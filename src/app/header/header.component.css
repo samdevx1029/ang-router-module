@@ -1,11 +1,12 @@
-#nav-first-row {
+.nav-first-row {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color:dodgerblue;
-    position: fixed;
+    position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
     vertical-align: middle;
     text-align: center;
@@ -13,21 +14,21 @@
     font-size: larger;
 }
 
-#nav-first-row li {
+.nav-first-row li {
     display: inline;
 }
 
-#nav-first-row li a {
+.nav-first-row li a {
     display: block;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-#nav-first-row li a:hover:not(.active) {
+.nav-first-row li a:hover:not(.active) {
     background-color: #111;
 }
 
-#nav-first-row .active {
+.nav-first-row .active {
     background-color: #4CAF50;
 }

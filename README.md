@@ -2,8 +2,21 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
 
+## Getting started
+Run 'npm install' to install packages.
+Run 'npm start' that launches development server at port 4400.
+Navigate to `http://localhost:4400/` to view the app.
+
+## Top navigation bar
+Note that header.component.css has the following value under #nav-first-row section.
+position: relative;
+This creates a small padding all around the navigation bar with the effect that there is a uniform white border around the navigation bar.
+In order to completely get rid of this white border, make following changes.
+position: absolute;
+left: 0;
+
 ## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve --port 4400` for a dev server. Navigate to `http://localhost:4400/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 

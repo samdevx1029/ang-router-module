@@ -13,7 +13,7 @@ import { DashboardComponent }       from '../dashboard/dashboard.component';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
+  public appName = 'MyApp';
   constructor() { }
 
   ngOnInit() {
